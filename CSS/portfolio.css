@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#navbar-container{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+}
+
+#projects{
+    width: 100%;
+    display: flex;
+}
+
+#project-one{
+    padding: 20px;
+    margin: auto;
+    width: 100px;
+    height: auto;
+}
+
+.project-image{
+    
+}
