@@ -4,35 +4,77 @@
 
 <head>
     <div id="navbar-container">
-        <div id="nav-left">
-        <div id="logo-container">
-            <img id="my-logo" src="Images/logo.png" alt="website logo">
+        <div id="nav-left-center">
+            <div id="logo-container">
+                <img id="my-logo" src="Images/logo.png" alt="website logo">
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav id="navbar">
-            <ul>
-                <li><a class="nav-link" href="#projects">Projects</a></li>
-                <li><a class="nav-link" href="#about">About</a></li>
-                <li><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
         <div id="socials">
-        <a href="https://github.com/drehfilipe" target="_blank"> <img id="social-github" src="Images/github-social.png"
-            alt="Github Link"></a>
+            <a href="https://github.com/drehfilipe" target="_blank"> <img id="social-github"
+                    src="Images/github-social.png" alt="Github Link"></a>
         </div>
     </div>
 </head>
 
 <body>
     <section id="welcome-section">
-        <h1>Hey there, I'm André</h1>
-        <h2>a designer and developer born in Portugal and currectly in Prague, Czech Republic</h2>
+        <div id="welcome-headline">
+            <h1>Hi there, I'm André.</h1>
+        </div>
+        <div id="welcome-sub-headline">
+            <h2>A designer and developer born in Portugal and currently in Prague, Czech Republic.</h2>
+        </div>
     </section>
     <section id="projects">
-        <div id="project-one">
-            <h2 class="project-title">Project one title</h2>
-            <a href="https://drehfilipe.github.io/Salvador-Dali-Tribute-Page/" target="_blank"> <img
-                    class="project-image" src="Images/project_01.jpg" alt="First Project Image"></a>
+        <h2 id="projects-headline">Projects</h2>
+        <p id="projects-text">I've been using freeCodeCamp as my learning tool for my coding learning journey. This
+            website is my fifth project from the responsive web design projects. The goal was to join all the previous
+            projects and build my own portfolio website. And as usual I give my own personal style.
+        </p>
+        <div id="projects-container">
+            <article id="project-one">
+                <h2 class="project-title">Salvador Dalí Tribute Page</h2>
+                <div id="tags">
+                <p class="project-language">HTML<p>
+                <p class="project-language">CSS<p>
+                </div>
+                <a href="https://drehfilipe.github.io/Salvador-Dali-Tribute-Page/" target="_blank">
+                    <img class="project-image" src="Images/project_01.jpg" alt="Salvador Dalí Tribute Page"></a>
+            </article>
+            <article id="project-two">
+                <h2 class="project-title">Job Application Survey</h2>
+                <div id="tags">
+                <p class="project-language">HTML<p>
+                <p class="project-language">CSS<p>
+                </div>
+                <a href="https://drehfilipe.github.io/Job-Application-Survey-Form/" target="_blank">
+                    <img class="project-image" src="Images/project_02.jpg" alt="Job Application Surey"></a>
+            </article>
+            <article id="project-three">
+                <h2 class="project-title">Stock Images Landing Page</h2>
+                <div id="tags">
+                <p class="project-language">HTML<p>
+                <p class="project-language">CSS<p>
+                </div>
+                <a href="https://drehfilipe.github.io/Product-Landing-Page/" target="_blank">
+                    <img class="project-image" src="Images/project_03.jpg" alt="Product Landing Page"></a>
+            </article>
+            <article id="project-four">
+                <h2 class="project-title">Blender Documentation Page</h2>
+                <div id="tags">
+                <p class="project-language">HTML<p>
+                <p class="project-language">CSS<p>
+                </div>
+                <a href="https://drehfilipe.github.io/Technical-Documentation-Page/" target="_blank">
+                    <img class="project-image" src="Images/project_04.jpg" alt="Technical Documentation Page"></a>
+            </article>
         </div>
     </section>
 </body>
