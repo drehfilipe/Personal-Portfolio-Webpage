@@ -316,6 +316,10 @@ body{
         text-align: center;
     }
     
+    #projects-text{
+        padding-bottom: 10vw;
+    }
+
     #project-one{
         padding-bottom: 10vw;
     }
