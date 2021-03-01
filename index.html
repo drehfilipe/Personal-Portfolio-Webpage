@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <link href="CSS/portfolio.css" rel="stylesheet" type="text/css">
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@200;300;400;500;700&display=swap" rel="stylesheet">
 <head>
     <div id="navbar-container">
         <div id="nav-left-center">
@@ -11,36 +12,36 @@
             <nav id="navbar">
                 <ul>
                     <li><a class="nav-link" href="#projects">Projects</a></li>
-                    <li><a class="nav-link" href="#about">About</a></li>
-                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li><a class="nav-link" href="#welcome-section">About</a></li>
+                    <li><a class="nav-link" href="#contact-headline">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div id="socials">
-            <a href="https://github.com/drehfilipe" target="_blank"> <img id="social-github"
+            <a id="profile-link" href="https://github.com/drehfilipe" target="_blank"> <img id="social-github"
                     src="Images/github-social.png" alt="Github Link"></a>
         </div>
     </div>
 </head>
-
-<body>
     <section id="welcome-section">
+        <div id="welcome-container">
         <div id="welcome-headline">
             <h1>Hi there, I'm André.</h1>
         </div>
         <div id="welcome-sub-headline">
-            <h2>A designer and developer born in Portugal and currently in Prague, Czech Republic.</h2>
+            <p>A designer and developer born in Portugal and currently living in Prague, Czech Republic.</p>
+        </div>
         </div>
     </section>
     <section id="projects">
         <h2 id="projects-headline">Projects</h2>
         <p id="projects-text">I've been using freeCodeCamp as my learning tool for my coding learning journey. This
             website is my fifth project from the responsive web design projects. The goal was to join all the previous
-            projects and build my own portfolio website. And as usual I give my own personal style.
+            projects and build my own portfolio website. And as usual I gave my own personal style.
         </p>
-        <div id="projects-container">
+        <section id="projects-container">
             <article id="project-one">
-                <h2 class="project-title">Salvador Dalí Tribute Page</h2>
+                <h2 class="project-tile">Salvador Dalí Tribute Page</h2>
                 <div id="tags">
                 <p class="project-language">HTML<p>
                 <p class="project-language">CSS<p>
@@ -49,7 +50,7 @@
                     <img class="project-image" src="Images/project_01.jpg" alt="Salvador Dalí Tribute Page"></a>
             </article>
             <article id="project-two">
-                <h2 class="project-title">Job Application Survey</h2>
+                <h2 class="project-tile">Job Application Survey</h2>
                 <div id="tags">
                 <p class="project-language">HTML<p>
                 <p class="project-language">CSS<p>
@@ -58,7 +59,7 @@
                     <img class="project-image" src="Images/project_02.jpg" alt="Job Application Surey"></a>
             </article>
             <article id="project-three">
-                <h2 class="project-title">Stock Images Landing Page</h2>
+                <h2 class="project-tile">Stock Images Landing Page</h2>
                 <div id="tags">
                 <p class="project-language">HTML<p>
                 <p class="project-language">CSS<p>
@@ -67,7 +68,7 @@
                     <img class="project-image" src="Images/project_03.jpg" alt="Product Landing Page"></a>
             </article>
             <article id="project-four">
-                <h2 class="project-title">Blender Documentation Page</h2>
+                <h2 class="project-tile">Blender Documentation Page</h2>
                 <div id="tags">
                 <p class="project-language">HTML<p>
                 <p class="project-language">CSS<p>
@@ -75,8 +76,24 @@
                 <a href="https://drehfilipe.github.io/Technical-Documentation-Page/" target="_blank">
                     <img class="project-image" src="Images/project_04.jpg" alt="Technical Documentation Page"></a>
             </article>
-        </div>
+        </section>
+    </section>
+    <section id="contact-container">
+        <div id="contact-headline"><h2>Let's work together!</h2></div>
+        <form id="form-container">
+            <div class="form-content">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="form-content">
+                <label id="message-label" for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            </div>
+            <div class="form-content">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
     </section>
 </body>
-
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
